@@ -20,7 +20,7 @@ public class EmailConfig {
 		mailSender.setHost("smtp.live.com"); // for hotmail
 		mailSender.setPort(587);
 		mailSender.setUsername("arun.jk@hotmail.com");
-		mailSender.setPassword("<arun/>:36");
+		mailSender.setPassword("password for your mail");
 		
 		Properties javaMailProperties = new Properties();
 		javaMailProperties.put("mail.smtp.starttls.enable", "true"); 
