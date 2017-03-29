@@ -1,11 +1,10 @@
 <html>
- 
     <body>
-        <h3>Dear ${order.customerInfo.name}, thank you for placing order.</h3>
- 
+        <h3>Dear asfsafsafd thank you for placing order.</h3>
         <div>
-            Your order id is : ${order.orderId}.
+            Your order id is : <b>sfdfsfsafsafsafdsafdsafsafd</b>
         </div>
+        <span><small>This is auto generated mail.</small></span><br>
         <span><small>Sent using FreeMarker Template</small></span>
     </body>
 </html>

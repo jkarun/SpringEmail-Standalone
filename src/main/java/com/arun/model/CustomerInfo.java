@@ -1,11 +1,10 @@
 package com.arun.model;
 
 public class CustomerInfo {
-private String name;
+	private String name;
 
-	
 	private String address;
-	
+
 	private String email;
 
 	public String getName() {
@@ -34,6 +33,7 @@ private String name;
 
 	@Override
 	public String toString() {
-		return "CustomerInfo [name=" + name + ", address=" + address + ", email=" + email + "]";
+		return "CustomerInfo [name=" + name + ", address=" + address
+				+ ", email=" + email + "]";
 	}
 }
