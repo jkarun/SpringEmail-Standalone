@@ -75,7 +75,7 @@ public class MailServiceImpl implements MailService {
 		StringBuffer buf = new StringBuffer();
 		try {
 			buf.append(FreeMarkerTemplateUtils.processTemplateIntoString(
-					freemarkerConfiguration.getTemplate("fm_template.txt"), buf));
+					freemarkerConfiguration.getTemplate("fm_template.txt"), model));
 			return buf.toString();
 		} catch (Exception e) {
 			System.err
